@@ -1,0 +1,52 @@
+.main {
+    margin: 10px;
+    margin-top: 25px;
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+.intro {
+    text-align: center;
+}
+
+.term-grid {
+    display: grid;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.term-card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+.term-title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.term-description {
+    display: none;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.term-card.active .term-description {
+    display: block;
+}
+
+h1 {
+    color: white;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+}
