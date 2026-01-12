@@ -17,8 +17,8 @@
 
 .term-card {
     background-color: black;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 25px;
+    border-radius: 15px;
     border: 2px solid white;
 }
 
@@ -37,6 +37,7 @@
 
 .term-card.active .term-description {
     display: block;
+    
 }
 
 h1 {
